@@ -131,9 +131,9 @@ if __name__ == "__main__":
                 if not renew(sessid, s, passwd_list[i], k):
                     print("ServerID: %s Renew Error!" % k)
                 else:
-                    print("ServerID: %s 续期成功!!" % k)
+                    print("ServerID: %s 【续期成功✔✔✔】" % k)
             else:
-                print("ServerID: %s 无须续期!" % k)
+                print("ServerID: %s 【无须续期✖✖✖】" % k)
         time.sleep(15)
         check(sessid, s)
         time.sleep(5)
